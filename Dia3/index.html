@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Formulario de registro</h1>
+  <form method="POST" action="">
+    
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" maxlength="50" required placeholder="fulanito">
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" maxlength="50" required placeholder="de tal">
+
+    <label>Sexo:</label>
+    <div class="genders">
+      <label>
+        <input type="radio" name="sexo" value="hombre" required> Hombre
+      </label>
+      <label>
+        <input type="radio" name="sexo" value="mujer"> Mujer
+      </label>
+    </div>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required placeholder="ejemplo@ejemplo.com">
+
+    <label for="poblacion">Población:</label>
+    <select id="poblacion" name="poblacion" required>
+      <option value="">Seleccione una opción</option>
+      <option value="Bucaramanga">Bucaramanga</option>
+      <option value="Giron">Giron</option>
+      <option value="Floridablanca">Floridablanca</option>
+      <option value="Piedecuesta">Piedecuesta</option>
+    </select>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion" rows="3"></textarea>
+
+    <div class="checkboxs">
+      <label>
+        <input type="checkbox" name="info" checked>
+        Deseo recibir información sobre novedades y ofertas
+      </label>
+    </div>
+
+    <div class="checkboxs">
+      <label>
+        <input type="checkbox" name="condiciones" required>
+        Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+      </label>
+    </div>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
