@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Amazon Ember Bold";
+  src: url("../fonts/Amazon Ember Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Amazon Ember Light";
+  src: url("../fonts/Amazon Ember Light.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/FondoTwitch.png);
+  background-color: black;
+  background-size: cover;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 1%;
+}
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn-login {
+  font-family: "Amazon Ember Light";
+  background-color: #ffffff;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+}
+.btn-Sign-Up {
+  font-family: "Amazon Ember Light";
+  background-color: #ffffff;
+  color: black;
+  font-size: 1.5rem;
+  padding: 1rem 3.2rem;
+  border-radius: 2rem;
+}
+.sub-header-cont {
+  text-align: center;
+}
+.sub-header-img {
+  margin-top: 6rem;
+  width: 29rem;
+}
+
+.sub-header-text1 {
+  font-family: "Amazon Ember Bold";
+  font-size: 3rem;
+}
+
+.sub-header-text2 {
+  font-family: "Amazon Ember Light";
+  margin: 1rem;
+  font-size: 2rem;
+}
+.cont2 {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+}
+.seccion1,
+.seccion2,
+.seccion3 {
+  text-align: center;
+  margin: 4rem 0rem;
+  border-radius: 4rem;
+  width: 92vw;
+  padding: 1.5rem;
+  background-color: #00a8e1;
+}
+.seccion4 {
+  text-align: center;
+  margin: 4rem 0rem;
+  border-radius: 4rem;
+  padding: 1.5rem 10rem;
+}
+.seccion1-img {
+  width: 10rem;
+  margin: 1rem;
+}
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+}
+.text-footer {
+  font-family: "Amazon Ember Light";
+  margin: 1rem;
+  font-size: 1rem;
+}
+.seccion2-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rotado {
+  rotate: calc(180deg);
+}
+.text1 {
+  font-family: "Amazon Ember Bold";
+  font-size: 2.5rem;
+}
+.text2 {
+  font-family: "Amazon Ember Light";
+  font-size: 2rem;
+}
+.img2 {
+  width: 8rem;
+  margin: 1rem;
+}
+.special1 {
+  font-family: "Amazon Ember Light";
+  font-size: 4rem;
+  margin: 1rem;
+}
