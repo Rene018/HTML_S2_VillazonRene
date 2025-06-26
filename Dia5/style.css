@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: -webkit-fill-available;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
+.cantidad {
+  display: flex;
+  height: 100vh;
+  background-color: black;
+  width: 7vw;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1%;
+    font-family:'open Sans',sans-serif;
+  font-weight: 400;
+}
+.numeritos {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.cantidad-div {
+  display: flex;
+  flex-direction: column;
+  height: 27rem;
+  gap: 8rem;
+}
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1% 1%;
+  font-family:'open Sans',sans-serif;
+  font-weight: 400;
+}
+.footer {
+  margin: 1% 2%;
+    font-weight: 600;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.saldos {
+  display: flex;
+  gap: 2rem;
+}
+.icons {
+  display: flex;
+  gap: 2.5rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
