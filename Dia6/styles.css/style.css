@@ -20,6 +20,7 @@ nav {
 nav a {
   text-decoration: none;
   padding: 1vh;
+  font-size: 1vw;
 }
 nav a:hover {
   text-decoration: underline;
@@ -51,11 +52,23 @@ nav a:hover {
 
 .section-2{
     display: flex;
+    align-items: center;
 
 }
 .section-2-img {
   width: 50vw;
 }
 .section-2-text{
-    width: 35vw;
+    width: 50vw;
+    display: flex;
+
+}
+.section-2-text h1 {
+  font-size: 7.5vh;
+}
+.section-2-text p {
+  font-size: 3vh;
+}
+hr{
+  width: 15vw;
 }
