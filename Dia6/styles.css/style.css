@@ -20,10 +20,11 @@ nav {
 nav a {
   text-decoration: none;
   padding: 1vh;
+  font-size: 1vw;
 }
 nav a:hover {
   text-decoration: underline;
-  text-decoration-color: rgb(211, 176, 20);
+  text-decoration-color: rgb(179, 148, 11);
 }
 .section-1 {
   display: flex;
@@ -36,26 +37,64 @@ nav a:hover {
 .section-1-img {
   width: 25vw;
 }
-.section-1 h1 {
+.section-1 h1,.section-4 h1 {
   font-size: 7.5vh;
 }
-
-.section-1 button {
+button {
   color: black;
   background-color: rgb(211, 176, 20);
-  font-size: 2.3vh;
-  padding: 1vw 1.7vw;
+  font-size: 2.1vh;
+  padding: 0.8vw 2vw;
   border-radius: 0.3rem;
   border: none;
 }
 
 .section-2{
     display: flex;
+    align-items: center;
 
 }
 .section-2-img {
   width: 50vw;
 }
 .section-2-text{
-    width: 35vw;
+    width: 50vw;
+    display: flex;
+
+}
+.section-2-text h1 {
+  font-size: 7vh;
+}
+.section-2-text p {
+  font-size: 2vh;
+}
+.liniecita{
+  width: 18vw;
+  padding-top: 2.2vw;
+  padding-right: 1.2vw;
+}
+.section-2 button{
+  font-size: 2.0vh;
+
+}
+
+.section-2-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1vw;
+  padding-right: 11vw;
+}
+
+.section-3-img {
+  width: 25vw;
+}
+.section-3{
+
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.section-4 h1 {
+  padding: 1vw 2vw;
 }
